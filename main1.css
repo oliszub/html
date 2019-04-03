@@ -1,0 +1,62 @@
+body
+{
+	/* background-image: url(images/tweed.png); */
+	/* Background pattern from subtlepatterns.com */
+	margin: 0;
+	background-color: #CCCCCC.
+	
+}
+
+.container
+{
+	background-color: white;
+	width: 900px;
+	/* height: 800px; */
+	margin: auto;
+}
+
+.logo
+{
+	background-color: green;
+	width: 900px;
+	height: 60px;
+	text-align:center; font-size: 44px
+}
+.menu
+{
+	background-color: red;
+	width: 900px;
+	height: 100px;
+	display:none;
+	}
+
+	.nav
+{
+	background-color: orange;
+	width: 250px;
+	height: 300px;
+	float: left;
+}
+
+.content
+{
+	background-color: skyblue;
+	width: 450px;
+	height: 300px;
+	float: left;
+}
+
+.sidebar
+{
+	background-color: #9F29B4;
+	width: 200px;
+	height: 300px;
+	float: left;
+}
+.footer
+{
+	background-image: url(images/tweed.png);
+	width: 900px;
+	height: 50px;
+	clear: both;
+}
