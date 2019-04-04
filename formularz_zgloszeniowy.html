@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>Formularz</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" href="main4.css">
+	<!-- <script src="code1.js"></script> -->
+	
+</head>
+<body>
+<div class="container">
+<div class="logo"><b>Formularz zgłoszeniowy</b></div>
+<div class="menu"></div>
+<div class="nav">nawigacja strony</div>
+<div class="content">
+<p> <form name=form3 method='post' action=zapisz3.php> 
+Imię i nazwisko
+<input type="text" name='imieinazwisko' id='imieinazwisko'> </p> 
+<p><label for="email">
+Adres email:
+</label>
+<input type="text" id="email"> </p>
+<p> Zgłaszam chęć wyjazdu na wycieczkę:</p>
+<p><input type='radio' name='chec' id='chec' value='t'> TAK</p>
+<p><input type='radio' name='chec' id='chec' value='n'> NIE</p>
+<p><input type='radio' name='chec' id='chec' value='nw'> Jeszcze się zastanawiam</p>
+<p>Zgłaszam chęć udziału w następujących wydarzeniach na wycieczce:
+<p><input type='checkbox' name='kasprowy' id='kasprowy'> Wjazd kolejką na Kasprowy Wierch</p>
+<p><input type='checkbox' name='dyskoteka' id='dyskoteka'> Dyskoteka</p>
+<p><input type='checkbox' name='kasprowy' id='kasprowy'> Wycieczka piesza do Morskiego Oka</p>
+<p> Uwagi</p>
+<p><textarea name="uwagi" id="uwagi" cols="45" rows="4" placeholder='Wpisz swoje uwagi/sugestie'></textarea></p>
+<p><input type="submit" name="zapisz" value="Zapisz"></p>
+</form>
+</div>
+<div class="sidebar"></div>
+<div class="footer">
+<div style='color:white'>
+Ostatnia aktualizacja strony: 2017r.</div></div>
+</div>
+
+</div>
+</body>
+</html>

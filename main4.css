@@ -1,0 +1,65 @@
+body
+{
+	
+	margin: 0;
+	background-color: #808080;
+	
+}
+
+.container
+{
+	background-color: #696969;
+	width: 900px;
+	height: 80px;
+	margin: auto;
+
+	}
+
+.logo
+{
+	background-color: #696969;
+	width: 900px;
+	height: 60px;
+	text-align: center; 
+font-size:30px;
+}
+.menu
+{
+	background-color: red;
+	width: 900px;
+	height: 100px;
+	display:none;
+	}
+
+	.nav
+{
+	background-color: #FF7F50;
+	width: 250px;
+	height:600px;
+	float: left;
+}
+
+.content
+{
+	background-color: skyblue;
+	height:600px;
+	width: 650px;
+	float: left;
+	text-align:left;
+
+}
+
+.sidebar
+{
+	background-color: #9F29B4;
+	width: 200px;
+	height: 200px;
+	DISPLAY:NONE;
+}
+.footer
+{
+	background-color: purple;
+	height: 50px;
+	text-align:center;
+	clear: both;
+}
